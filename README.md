@@ -1,18 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ 이 프로그램은 사용자가 도시 이름을 입력하면 OpenWeather API를 통해 해당 도시의 현재 날씨를 보여주는 웹 애플리케이션입니다. 도시명을 입력하면
+  먼저 위도와 경도를 조회하고, 그 좌표를 기준으로 현재 기온, 습도, 날씨 설명, 날씨 아이콘을 화면에 표시합니다. 날씨 상태 코드에 따라 배경 이미지
+  도 변경되어 맑음, 비, 눈, 구름 등 날씨 분위기를 시각적으로 표현합니다.
